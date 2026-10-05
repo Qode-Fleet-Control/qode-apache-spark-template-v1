@@ -1,3 +1,16 @@
 .env
 .fleet/
 .fleet-deploy.log
+*.log
+
+# --- Maven ---
+target/
+
+# --- Spark local runs ---
+spark-warehouse/
+metastore_db/
+
+# --- IDE ---
+.idea/
+*.iml
+.vscode/
